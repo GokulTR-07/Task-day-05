@@ -1,0 +1,159 @@
+Reason for latesubmission: 30th june I raised one query for this task, which is about the JSON object. Because in this task u didn't gave us any JSON data so, I asked the data's to perform this task. Justnow that query was cleared by "chandrasekaran". That's why the submission of this task is delayed. Because response from your end is so delayed. You can check the previous tasks i did, Every task i submitted ontime. So, I talked about the mark deduction to chandrasekaran. He told that they don't deduct any marks. So, Please don't deduct any marks. It wasn't my mistake.
+
+
+
+1) For the given JSON iterate over all for loops (for, for in, for of, forEach).
+
+var obj = [
+        {"name": "joe",
+         "age":20,
+         "Blood_group":"B positive"},
+         
+        {"name": "jill",
+         "age":21,
+        "Blood_group":"A positive"},
+        
+        {"name": "jung",
+         "age":22,
+        "Blood_group":"O positive"},
+        
+        {"name": "juk",
+         "age":23,
+        "Blood_group":"AB positive"},
+        
+        {"name": "biden",
+         "age":24,
+        "Blood_group":"AB negative"},
+        
+        {"name": "joji",
+         "age":25,
+        "Blood_group":"A negative"},
+        
+        {"name": "jojo",
+         "age":26,
+        "Blood_group":"B negative"},
+        
+        {"name": "joel",
+         "age":27,
+        "Blood_group":"O negative"}];
+        
+        
+// for loop Iteration
+
+for (var i=0; i<obj.length; i++){
+    console.log(obj[i]);
+}
+        
+// for in loop Iteration        
+        
+for(let key in obj){
+    console.log(obj[key]);
+}     
+        
+// for of loop Iteration        
+        
+for(var key of obj){
+    console.log(key);
+}        
+        
+// for Each loop Iteration  
+  
+obj.forEach(function(key) {
+    console.log(key);
+});
+
+
+
+2) Create your own resume data in JSON format. 
+  
+let resume = [{
+        "name":"Gokul",
+        "age": 20,
+        "Email_id": "gokultr1206@gmail.com",
+        "phone_no": 9962467753
+    },
+    
+    {
+        "Address":"No:1,Ambedkar street",
+        "city": "Chennai",
+        "state": "Tamilnadu",
+        "pincode": 600015
+    },
+    
+    {
+        "Work_experience": "NIL"
+    },
+    
+    {
+        "Education": [
+            {
+                "School": "Corporation boys higher secondary school",
+                "SSLC": "86%",
+                "HSC": "70%"
+            }],
+            
+        "Degree": [
+            {
+                "College/University": "Loyola college",
+                "Course": "Ba(history)",
+                "CGPA": 7.3
+            }]
+            
+    },
+    
+    {
+        "Skills": [
+            {
+                "Technical_skills": "Ms word , office",
+                "Type_writing": "level-junior",
+            }]
+    },
+    
+    {
+        "language_known": "Tamil, English"
+    },
+    
+    {
+        "Interest": [
+            {
+                "Artist": "Drawing_artist",
+                "Hobbies": "Playing cricket,reading Books,Cooking"
+            }]
+    }
+];
+
+resume.forEach(function(key){
+    console.log(key);
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+        
+        
